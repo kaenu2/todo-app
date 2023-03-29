@@ -1,0 +1,18 @@
+.add-todo{
+	position: relative;
+	display: flex;
+	align-items: center;
+	span{
+		cursor: pointer;
+		path{
+			fill: var(--icon-color);
+		}
+	}
+
+	&__add-btn{
+		position: absolute;
+		top: 50%;
+		right: 5px;
+		transform: translateY(-50%);
+	}
+}

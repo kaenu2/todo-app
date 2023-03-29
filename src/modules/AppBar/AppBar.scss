@@ -1,0 +1,36 @@
+.site-bar{
+	position: fixed;
+	width: 320px;
+	height: 100%;
+	top: 0;
+	left: -100%;
+	padding: 80px 15px 0px;
+	background-color: var(--bg-site-bar);
+	z-index: 2;
+	transition: all 0.3s ease 0s;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	ul{
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+		margin-top: 30px;
+		li{
+			cursor: pointer;
+			font-size: 20px;
+			transition: all 0.3s ease 0s;
+			&._active{
+				color: var(--border-color);
+			}
+			@media (min-width: 767.98px){
+				&:hover{
+					transform: scale(1.01);
+				}
+			}
+		}
+	}
+	&._active{
+		left: 0%;
+	}
+}

@@ -1,0 +1,27 @@
+.todo-list{
+	width: 100%;
+	height: 100%;
+	margin-top: 80px;
+	transition: all 0.3s ease 0s;
+	&__container{
+		max-width: 830px;
+		padding: 0 15px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		row-gap: 20px;
+	}
+	&__list{
+		display: flex;
+		flex-direction: column;
+		row-gap: 50px;
+		position: relative;
+		bottom: 53px;
+		transition: all 0.3s ease 0s;
+		&._active{
+			bottom: 0;
+		}
+	}
+	input{
+	}
+}

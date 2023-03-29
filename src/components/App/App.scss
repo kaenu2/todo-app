@@ -1,0 +1,23 @@
+.main {
+	&__add-todo{
+		position: fixed;
+		bottom: 5%;
+		right: 5%;
+		padding: 5px;
+		background-color: var(--color-white);
+		border-radius: 50%;
+		cursor: pointer;
+		transition: all 0.3s ease 0s;
+		@media (min-width: 991.98px){
+			&:hover{
+				transform: translateY(-5px);
+			}	
+		}
+		svg{
+			width: 40px;
+			height: 40px;
+			path{
+			}
+		}
+	}
+}

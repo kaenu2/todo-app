@@ -1,0 +1,79 @@
+@import "nullstyle.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  overflow: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+	--bg-color: #1a1a1a;
+	--main-color: #e2e2e2;
+	--bg-header: #272727;
+	--bg-site-bar: rgba(255, 255, 255, .1);
+	--color-white: #fff;
+	--border-color: red;
+	--bg-color-theme-icon-moon: rgba(0, 0, 0, .2); 
+	--border-color-theme-icon-moon: #252525;
+	--theme-icon-fill: #7e7e7e;
+	--icon-color: #fff;
+	--icon-btn-fill: rgba(255, 255, 255, .2);
+	--box-shadow-header: rgba(225, 225, 225, 0.6);
+	// --span-red: red;
+	// --color-white: #fff;
+	// --input-border: #333333;
+	// --input-focus: #3f3f3f;
+	// --color-grey: #858585;
+	// --color-yellow: rgb(255, 255, 72);
+	// --color-grey2: grey;
+	// --color-btn: #333333;
+	// --color-trash: rgba(255, 255, 255, .6);
+	// --color-active-bar: rgba(255, 255, 255, .3);
+}
+
+:root[data-theme='light']{
+	--bg-color: #e2e3e2;
+	--main-color: #252525;
+	--bg-header: #858585;
+	--bg-site-bar: rgba(0, 0, 0, .2);
+	--icon-color: #000;
+	--icon-btn-fill: rgba(0, 0, 0, .2);
+	--box-shadow-header: rgba(0, 0, 0, 0.6);
+	// --color-white: #fff;
+	// --border-color: red;
+	// --bg-color-theme-icon-moon: #f2f2f2; 
+	// --border-color-theme-icon-moon: #252525;
+	// --theme-icon-fill: #7e7e7e;
+	// --bg-color: #e2e2e2;
+	// --main-color: #000;
+	// --bg-site-bar: #bbbbbb;
+	// --span-red: red;
+	// --color-white: #000;
+	// --input-border: #252525;
+	// --input-focus: #222222;
+	// --color-grey: #272727;
+	// --color-yellow: yellow;
+	// --color-grey2: #e4e4e4;
+	// --color-btn: #7c7c7c;
+	// --color-trash: rgb(255, 108, 108);
+	// --color-active-bar: rgba(0, 0, 0, .9);
+}
+
+// data-theme='light'
+
+._container{
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0 15px;
+}

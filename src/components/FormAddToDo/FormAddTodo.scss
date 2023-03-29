@@ -1,0 +1,42 @@
+.form-add-todo{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	border-bottom: 1px solid var(--border-color);
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease 0s;
+	span{
+		svg{
+			width: 30px;
+			height: 30px;
+			path{
+				fill: var(--icon-color);
+			}
+		}
+	}
+	input{
+		background: none;
+		color: var(--color-icon);
+		width: 100%;
+		font-size: 20px;
+		padding-bottom: 15px;
+		&:last-child{
+			width: 25%;
+			margin-left: 20px;
+		}
+		@media (max-width: 479.98px){
+			width: 50%;
+			font-size: 18px;
+			&:last-child{
+				width: 50%;
+				margin-left: 0;
+			}
+		}
+	}
+	&._active{
+		opacity: 1;
+		visibility: visible;
+	}
+}

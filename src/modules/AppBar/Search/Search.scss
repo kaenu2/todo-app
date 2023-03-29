@@ -1,0 +1,25 @@
+.search{
+	position: relative;
+	display: flex;
+	align-items: center;
+	span{
+		position: absolute;
+		top: 50%;
+		left: 5px;
+		transform: translateY(-50%);
+		cursor: pointer;
+		svg{
+			width: 25px;
+			height: 25px;
+			path{
+				stroke: var(--icon-color);
+			}
+		}
+	}
+	input{
+		padding-left: 30px;
+		left: -50px;
+		background: none;
+		border-bottom: 1px solid red;
+	}
+}
