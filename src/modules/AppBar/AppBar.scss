@@ -33,4 +33,26 @@
 	&._active{
 		left: 0%;
 	}
+	&__gaid-link{
+		position: absolute;
+		bottom: 50px;
+		left: 20px;
+		display: flex;
+		// align-items: center;
+		flex-direction: column;
+		gap: 10px;
+		font-size: 18px;
+		color: var(--main-color);
+		svg{
+			transition: transform 0.3s ease 0s;
+		}
+		@media (min-width: 767.98px){
+			&:hover{
+				svg{
+					transform: scale(1.2) translateX(-2px);
+
+				}
+			}
+		}
+	}
 }

@@ -46,6 +46,8 @@ export const TodoList = ({ openFormAdd }) => {
 				return todo.filter(elem => elem.important);
 			case 'done':
 				return todo.filter(elem => elem.done);
+			case 'like':
+				return todo.filter(elem => elem.like);
 			default:
 				return todo;
 		}

@@ -5,8 +5,9 @@ const initialState = {
 	],
 	siteBarMenu: [
 		{name: 'all', label: 'Все', active: true},
-		{name: 'active', label: 'Активные', active: false},
 		{name: 'important', label: 'Важные', active: false},
+		{name: 'active', label: 'Активные', active: false},
+		{name: 'like', label: 'Лайкнутые', active: false},
 		{name: 'yesterday', label: 'Вчера', active: false},
 		{name: 'today', label: 'Сегодня', active: false},
 		{name: 'tomorrow', label: 'Завтра', active: false},
