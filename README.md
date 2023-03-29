@@ -12,3 +12,11 @@
 
 
 <img src="https://i.ibb.co/hBp3fzp/func.png" alt="Скриншот приложения"/>
+
+
+Стек:
+
+1. <a href="https://ru.reactjs.org/">React.js</a>
+2. <a href="https://react-redux.js.org/">Redux</a>
+3. <a href="https://sass-lang.com/">SASS</a>
+
