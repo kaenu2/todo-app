@@ -69,7 +69,7 @@ const ViewEditInput = ({ term, setTerm, id }) => {
 	}
 	return (
 		<form onSubmit={(e) => onSubmitForm(e)} className="todo-item__form-label">
-			<input value={term} onChange={(e) => onChangeValue(e)} name="term" />
+			<input value={term} onChange={(e) => onChangeValue(e)} name="term" autoFocus />
 		</form>
 	);
 }

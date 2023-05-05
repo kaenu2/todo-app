@@ -31,7 +31,7 @@ export const AddTodo = () => {
 
 	return (
 		<form className="add-todo" onSubmit={(e) => onSubmitForm(e)}>
-			<input type={'text'} className={open ? 'custom-input _active' : `custom-input`} onChange={(e) => onChangeInput(e)} value={inputValue} name="label" />
+			<input type={'text'} className={open ? 'custom-input _active' : `custom-input`} onChange={(e) => onChangeInput(e)} value={inputValue} name="label" autoFocus={open ? true : false} />
 			<span
 				className="add-todo__add-btn"
 				onClick={onOpen}>
